@@ -42,7 +42,6 @@ def get_Weather_URL(day_time):
 
 def Make_Weather_Json(day_time):
     jsonData = get_Weather_URL(day_time)
-    json_weather_result = []
     for data in jsonData['response']['body']['items']['item']:
         baseDate = data["baseDate"]
         baseTime =data["baseTime"]
@@ -59,15 +58,6 @@ def Make_Weather_Json(day_time):
 
 
     yyyymmdd = time.strftime('%Y%m%d', time.localtime(time.time()))
-    # row_list_output = []
-    # for row_list in json_weather_result:
-    #     row_list_output.append(row_list.values())
-    #     filewriter.writerow(row_list_output)
-    #     print(row_list)
-
-    # with open('동구_신암동_초단기예보조회_%s%s.json' % (yyyymmdd, day_time), 'w', encoding='utf-8') as outfile:
-    #     retJson = json.dumps(json_weather_result, indent=4, sort_keys=True, ensure_ascii=False)
-    #     outfile.write(retJson)
     print('동구_신암동_초단기예보조회_%s%s.json' % (yyyymmdd, day_time))
 
 def get_Realtime_Weather_Info():
@@ -75,7 +65,6 @@ def get_Realtime_Weather_Info():
         real_time = str(time.localtime().tm_hour - 1) + '59'
     else:
         real_time = time.strftime('%H%M', time.localtime(time.time()))
-    # real_time = time.strftime('%H%M', time.localtime(time.time()))
     if len(real_time) == 3:
         real_time = '0' + real_time
     Make_Weather_Json(real_time)
