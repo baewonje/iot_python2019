@@ -102,16 +102,20 @@ def save_file_B(file_index):
     except:
         pass
 
-    dest_file_name
     all_data = []
     sub_list = []
     if is_header == True or is_first == True:
         header_list = ['addrCd', 'gungu', 'sido', 'resNm', 'rnum', 'csForCnt', 'csNatCnt']
         all_data.append(header_list)
-for index in range(simulation_count):
+    for index in range(simulation_count):
         sub_list.append(simulation_data)
-    with open_workbook(dest_file_name) as workbook:
-        all_data.extend(sub_list)
+    all_data.extend(sub_list)
+    for list_index, output_list in enumerate(all_data):
+        for element_index, element in enumerate(output_list):
+            # output_worksheet = dest_file_name.add_sheet("Sheet 1", cell_overwrite_ok=True)
+            output_worksheet.write(list_index, element_index, element)
+
+    output_workbook.save(dest_file_name)
 
 def file_count_B():
     index = len(os.listdir(f'{base_repository_name}{dir_delimeter}{second_repository_name}'))
@@ -125,17 +129,15 @@ while True:
     file_size = 0
     choice = int(input(message))
     if choice == 1:
-        print('''\n\t\t 환경설정메뉴
-            1. Base repository 명: {}
-            2. TypeA repository 명: {}
-            3. TypeA 포멧 : {}
-            4. TypeA 데이터용량제한: {}
-            5. TypeB repository 명: {}
-            6. TypeB 포멧:{}
-            7. Type 데이터용량제한: {}
-            8. 이전메뉴
-            ''').format(base_repository_name,Type_A_repository,file_format_A,file_size_limit_A,Type_B_repository,
-                       file_format_B,file_size_limit_B)
+        print('\n\t\t < 환경설정메뉴 >')
+        print(f" 1. Base Repository 명:{base_repository_name}")
+        print(f" 2. Type A Repository 명: {Type_A_repository}")
+        print(f" 3. Type A 포멧 : {file_format_A}")
+        print(f" 4. Type A 데이터용량제한:{file_size_limit_A}")
+        print(f" 5. Type B Repository 명:{Type_B_repository}")
+        print(f" 6. Type B 포멧: {file_format_B}")
+        print(f" 7. Type B 데이터용량제한: {file_size_limit_B}")
+        print("  8. 이전메뉴")
         change_choice = int(input("메뉴를 입력하세요: "))
         if change_choice == 1:
             base_repository_name = input("새로운 base repository 명을 입력하세요: ")
