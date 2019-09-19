@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851278b7-0014-487f-bdc7-b3aa7a860486" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_select_condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_select_condition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/1excel_introspect_workbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/exe_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/4excel_value_meets_condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/4excel_value_meets_condition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

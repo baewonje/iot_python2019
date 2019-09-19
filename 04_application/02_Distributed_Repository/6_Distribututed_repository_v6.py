@@ -85,7 +85,7 @@ def file_count_A():
     return index
 
 
-def save_file_B(index):
+def save_file_B(file_index):
     global is_header
     dest_file_name = f'{base_repository_name}{dir_delimeter}{second_repository_name}{dir_delimeter}{file_name}{str(file_index)}.{file_format_B}'
 
@@ -104,18 +104,14 @@ def save_file_B(index):
 
     dest_file_name
     all_data = []
+    sub_list = []
     if is_header == True or is_first == True:
         header_list = ['addrCd', 'gungu', 'sido', 'resNm', 'rnum', 'csForCnt', 'csNatCnt']
         all_data.append(header_list)
-    for index in range(simulation_count):
-        sub.append(simulation_data)
-
-
+for index in range(simulation_count):
+        sub_list.append(simulation_data)
     with open_workbook(dest_file_name) as workbook:
-        for worksheet in workbook.sheets():
-            for index in range(simulation_count):
-                getTourPointData_B(workbook)
-        all_data.extend(workbook)
+        all_data.extend(sub_list)
 
 def file_count_B():
     index = len(os.listdir(f'{base_repository_name}{dir_delimeter}{second_repository_name}'))
