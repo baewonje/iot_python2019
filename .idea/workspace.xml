@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851278b7-0014-487f-bdc7-b3aa7a860486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/1_Distribututed_Repository_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/2_Distribututed_Repository_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/3_Distribututed_Repository_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/4_Distribututed_Repository_v4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/5_Distribututed_Repository_v5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/01_Collection/02_OpenAPI/02_data/Bigdata_collector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_insert_rows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_non_volatile_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_select_condition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/3db_update_rows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/12_excel_introspect_all_workbooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/13excel_concat_data_from_multple_workbooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/13pandas_concat_data_from_multiple_workbooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/1excel_introspect_workbook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/3_excel_parsing_and_write_keep_dates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/3_pandas_parsing_and_write_keep_dates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/4_pandas_value_meets_condition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/5_pandas_value_in_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/7_excel_column_by_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/7_pandas_column_by_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/8_excel_column_by_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/8_pandas_column_by_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/9_excel_value_meets_condition_all_worksheets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/9_pandas_value_meets_condition_all_worksheets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_bigdata/01_Collection/02_OpenAPI/02_data/get_weather_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_bigdata/01_Collection/02_OpenAPI/02_data/get_weather_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_application/02_Distributed_Repository/Bigdata_repository/시뮬레이션_서울특별시_관광지별_방문객3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_select_condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_select_condition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/1excel_introspect_workbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_application/02_Distributed_Repository/exe_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/4excel_value_meets_condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/4excel_value_meets_condition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +35,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
@@ -72,19 +53,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\python_workspace\3_bigdata\02_Standardization_Analysis\2_Excel" />
-      <recent name="C:\python_workspace\3_bigdata\01_Collection\02_OpenAPI\02_data" />
-      <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\01_beautiful_soup" />
-      <recent name="E:\" />
-      <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\02_regular_expression\01_basic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\python_workspace\3_bigdata\01_Collection\02_OpenAPI\02_data" />
       <recent name="C:\python_workspace\3_bigdata\02_Standardization_Analysis\1_CSV" />
       <recent name="C:\python_workspace\02_raspberry_pi" />
       <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\02_regular_expression\02_intermediate" />
       <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\02_reguar_expression\01_basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_workspace\3_bigdata\02_Standardization_Analysis\2_Excel" />
+      <recent name="C:\python_workspace\3_bigdata\01_Collection\02_OpenAPI\02_data" />
+      <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\01_beautiful_soup" />
+      <recent name="E:\" />
+      <recent name="C:\python_workspace\3_bigdata\01_Collection\03_web_crawling\02_regular_expression\01_basic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,28 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2db_select_condition">
-    <configuration name="14_excel_sum_average_multipule_workbooks" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/14_excel_sum_average_multipule_workbooks.py" />
-      <option name="PARAMETERS" value=". output_files/14output_basic.xls" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.6_Distribututed_repository_v6">
     <configuration name="174_3_read.line" type="PythonConfigurationType" factoryName="Python">
       <module name="python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +123,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1_excel_introspect_workbook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/2_Excel/1_excel_introspect_workbook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1db_sqllite_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/1db_sqllite_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2_159_2" type="PythonConfigurationType" factoryName="Python">
       <module name="python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,48 +179,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_jump_to_python/3_control/4_input_output/1_function/2_1592.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2db_insert_rows" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_insert_rows.py" />
-      <option name="PARAMETERS" value="supplier_data.csv" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2db_non_volatile_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_workspace" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_non_volatile_test.py" />
-      <option name="PARAMETERS" value="supplier_data.csv" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -268,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4db_delete_row" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="6_Distribututed_repository_v6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_workspace" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,11 +236,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_application/02_Distributed_Repository" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/4db_delete_row.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exe_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_application/02_Distributed_Repository" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_application/02_Distributed_Repository/exe_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,19 +341,19 @@
       <item itemvalue="Python.q8" />
       <item itemvalue="Python.q9" />
       <item itemvalue="Python.wav" />
-      <item itemvalue="Python.2db_insert_rows" />
-      <item itemvalue="Python.2db_non_volatile_test" />
       <item itemvalue="Python.2db_select_condition" />
-      <item itemvalue="Python.4db_delete_row" />
-      <item itemvalue="Python.14_excel_sum_average_multipule_workbooks" />
+      <item itemvalue="Python.exe_text" />
+      <item itemvalue="Python.6_Distribututed_repository_v6" />
+      <item itemvalue="Python.1_excel_introspect_workbook" />
+      <item itemvalue="Python.1db_sqllite_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6_Distribututed_repository_v6" />
+        <item itemvalue="Python.1db_sqllite_test" />
+        <item itemvalue="Python.1_excel_introspect_workbook" />
+        <item itemvalue="Python.exe_text" />
         <item itemvalue="Python.2db_select_condition" />
-        <item itemvalue="Python.14_excel_sum_average_multipule_workbooks" />
-        <item itemvalue="Python.4db_delete_row" />
-        <item itemvalue="Python.2db_non_volatile_test" />
-        <item itemvalue="Python.2db_insert_rows" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +399,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -700,6 +683,11 @@
           <url>file://$PROJECT_DIR$/3_bigdata/02_Standardization_Analysis/03_DB/2db_insert_rows.py</url>
           <line>32</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_application/02_Distributed_Repository/6_Distribututed_repository_v6.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

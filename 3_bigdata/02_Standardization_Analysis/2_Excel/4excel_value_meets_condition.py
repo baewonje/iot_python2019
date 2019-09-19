@@ -1,4 +1,4 @@
-# 목적: 트정 조건을 충조하는 행의 필터링
+# 목적: 특정 조건을 충족하는 행의 필터링
 import sys
 from xlrd import open_workbook, xldate_as_tuple
 from xlwt import Workbook

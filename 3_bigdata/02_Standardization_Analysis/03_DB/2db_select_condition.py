@@ -17,8 +17,16 @@ c = con.cursor()
 # output = c.execute("select supplier_Name, cost FROM Suppliers")
 
 #행 필터링 조건
-# output = c.execute("SELECT * FROM suppliers WHERE supplier_name='Supplier X' ")
-output = c.execute("SELECT * FROM suppliers WHERE part_number > 300 ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE supplier_name ='Supplier X' ")
+# output = c.execute("SELECT * FROM suppliers WHERE part_number > 300 ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE part_number < 300 ") # 숙제
+output = c.execute("SELECT * FROM suppliers WHERE part_number = 300 ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE part_number = 300 or part_number = 7009 ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE part_number = 300 and part_number = 7009 ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE part_number in('7009','6650')  ") # 숙제
+# output = c.execute("SELECT * FROM suppliers WHERE part_number not in('7009','6650')  ") # 숙제
+# output = c.execute("select * from Suppliers order by cost")
+# output = c.execute("SELECT count(*) from suppliers")
 
 # 행, 열 필터링 하는 조건
 # output = c.execute("SELECT supplier_name, cost FROM suppliers WHERE supplier_name='Supplier X' ")
