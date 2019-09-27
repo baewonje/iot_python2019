@@ -11,9 +11,6 @@ import MySQLdb
 # 						    Sex VARCHAR(20),
 #                           Age int,
 #                           Major VARCHAR(20));
-
-
-
 main_menu = """
   <메인 메뉴>
 1. 생성(Insert)
