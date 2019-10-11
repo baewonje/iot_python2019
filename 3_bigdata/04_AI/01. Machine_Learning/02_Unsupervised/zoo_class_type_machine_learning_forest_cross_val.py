@@ -48,7 +48,7 @@ for num in range(start_combi, end_combi):
     for tup in combi_list:
         # 종속 변수 식별
         data_header_list = list(tup)
-        clf = svm.SVC(gamma='auto')
+        clf = RandomForestClassifier()
         # clf.fit(wine[data_header_list],label)
         scores = model_selection.cross_val_score(clf,zoo[data_header_list],label, cv=cross_val)
         accuracy = scores.mean()
